@@ -23,7 +23,7 @@ Copy .env.example to .env and add your API keys:
 ```env
 GROQ_API_KEY=your_groq_api_key_here
 ```
-# or
+or
 ```env
 OPENAI_API_KEY=your_openai_api_key_here
 ```
