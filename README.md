@@ -1,40 +1,39 @@
+# Agentic Tour Planner 🧳
 
-```uv --version
+An intelligent AI-powered trip planner built with **LangGraph**, **LangChain**, **FastAPI**, and **Streamlit**. It helps users plan complete trips with real-time weather, expense calculations, currency conversion, and more.
+
+---
+## 🚀 Quick Start
+
+### 1. Clone the repository
+```bash
+git clone <your-repo-url>
+cd Agentic-Tour-Planner
 ```
-
-
-```import shutil
-print(shutil.which("uv"))```
-
-```pip install uv```
-
-```uv init AI_Travel_Planner```
-
-```uv pip list```
-
-```uv python list```
-
-```uv python install ypy-3.10.16-windows-x86_64-none```
-
-```uv python list```
-
-```uv venv env --python cpython-3.10.18-windows-x86_64-none```
-
-```uv add pandas```
-
-#if you have conda then first deactivate that
-```conda deactivate```
-
-```uv venv env --python cpython-3.10.18-windows-x86_64-none```
-
-## use this command from your virtual env
-```C:\Users\sunny\AI_Trip_Planner\env\Scripts\activate.bat```
-
-
+### 2. Install dependencies (Recommended: using uv)
+```bash
+# Install uv (if not installed)
+pip install uv
+# Create virtual environment and install dependencies
+uv venv
+uv pip install -r requirements.txt
 ```
+### 3. Set up environment variables
+Copy .env.example to .env and add your API keys:
+```envG
+ROQ_API_KEY=your_groq_api_key_here
+# or
+OPENAI_API_KEY=your_openai_api_key_here
+```
+### 4. Run the application
+Option A: Streamlit (Recommended for users)
+```bash
 streamlit run streamlit_app.py
 ```
-
-```
+Option B: FastAPI Backend
+```bash
 uvicorn main:app --reload --port 8000
 ```
+
+# 🤝 Contributing
+Feel free to open issues or submit pull requests!
