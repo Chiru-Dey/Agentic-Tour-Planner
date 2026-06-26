@@ -7,7 +7,7 @@ An intelligent AI-powered trip planner built with **LangGraph**, **LangChain**, 
 
 ### 1. Clone the repository
 ```bash
-git clone <your-repo-url>
+git clone https://github.com/Chiru-Dey/Agentic-Tour-Planner.git
 cd Agentic-Tour-Planner
 ```
 ### 2. Install dependencies (Recommended: using uv)
