@@ -20,9 +20,11 @@ uv pip install -r requirements.txt
 ```
 ### 3. Set up environment variables
 Copy .env.example to .env and add your API keys:
-```envG
+```env
 GROQ_API_KEY=your_groq_api_key_here
+```
 # or
+```env
 OPENAI_API_KEY=your_openai_api_key_here
 ```
 ### 4. Run the application
