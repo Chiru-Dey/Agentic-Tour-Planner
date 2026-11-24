@@ -29,9 +29,9 @@ print(get_requirements())
 
 setup(
     name="AI-TRAVEL-PLANNER",
-    version="0.0.1",
-    author="sunny savita",
-    author_email="snshrivas3365@gmail.com",
+    version="1.0.0",
+    author="chiru dey",
+    author_email="chiru.d.guy@gmail.com",
     packages = find_packages(),
     install_requires=get_requirements()
 )
